@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Fugaz+One&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#index
+{
+    background-image: url(images/bg.jpg);
+    /* opacity: 50%; */
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about
+{
+    background-image: url(images/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#contact
+{
+    background-image: url(images/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#exp
+{
+    background-image: url(images/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#index::before {
+    content:"";
+    background-image: url("https://source.unsplash.com/user/erondu/1600x900") no-repeat center center/cover;
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+
+}
+
+.sidebar
+{
+    background-color: rgb(78, 81, 233);
+    /* border: 2px solid white;
+    border-radius: 5px; */
+    
+    position: absolute;
+    padding-top: 25px;
+    width: 230px;
+    height: 100%;
+    /* height: 100vh; */
+    height:min-content;
+    transition: transform 0.3s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sidebar nav
+{
+    font-family: 'Alata', sans-serif;
+    padding: 30px 40px;
+    
+
+    /* height: 100vh; */
+}
+
+.sidebar nav li
+{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 20px 20px;
+}
+.sidebar nav li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.main
+{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+    margin-left: 70px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+.container
+{
+    display: flex;
+}
+.infocontainer
+{
+    /* background-color: red; */
+    height: 78vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content:space-around;
+}
+
+.devpic img
+{
+    /* width: 400px; */
+    height: 78vh;
+    /* margin: 200px auto; */
+    
+}
+
+.devinfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    padding: 3px;
+    font-size: 50px;
+}
+.Hey
+{
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.name
+{
+    
+    font-family: 'Fugaz One', cursive;
+}
+.about
+{
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.moreabout
+{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Sriracha', cursive;
+}
+.moreabout a
+{
+    text-decoration: none;
+}
+.buttons
+{
+    margin-top: 0px;
+}
+.buttons button
+{
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(70, 110, 230);
+    color: white;
+    font-weight: lighter;
+    padding:5px 10px;
+    font-family: 'Suez One', serif;
+}
+.buttons button a
+{
+    text-decoration: none;
+    color: white;
+}
+.buttons button:hover
+{
+    background-color: rgb(1, 27, 134);
+    /* color:rgb(74, 114, 235) ; */
+    cursor: pointer;
+}
+.contactform
+{
+    font-family: 'Alata', sans-serif;
+    /* margin: 50px 34px;
+    margin-top: 105px; */
+    padding: 200px;
+    /* padding-top: 56px; */
+    
+}
+.contactform form
+{
+    font-size: 20px;
+    /* margin:60px; */
+   
+}
+.contactform h1
+{
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+.form-group input
+{
+    border: 2px solid black;
+    /* width: 33vw; */
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 200px;
+    margin: 12px auto;
+    text-align: center;
+    margin-left: 140px;
+}
+#btn
+{
+ display: flex;   
+ justify-content: center;
+ margin-top: 20px;
+ padding-left: 5px;
+ 
+
+ 
+}
+.btn
+{
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 2px 13px;
+    font-family: 'Suez One', serif;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(70, 110, 230);
+    font-weight: lighter;
+}
+.btn:hover
+{
+    background-color:rgb(1, 27, 134) ;
+    cursor: pointer;
+}
+.cb
+{
+    margin-left: 280px;
+}
+.exp_container
+{
+       /* p-top: 10px; */
+}
+.exp_container h1
+{
+   margin: 20px;
+   font-family: 'Fugaz One', cursive;
+
+}
+.exp_container p
+{
+    font-family: 'Sriracha', cursive;
+    margin-top: 10px; 
+}
+.exp_item
+{
+    margin: 60px;
+
+}
+.btn-sm
+{
+    margin-top: 8px;
+    border: 2px solid black;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: 'Suez One', serif;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(70, 110, 230);
+    font-weight: lighter;
+}
+.btn-sm a
+{
+    text-decoration: none;
+    color: white;
+}
+.lc_container h1
+{
+    
+    margin: 20px;
+    font-family: 'Fugaz One', cursive;
+
+}
+.lc_container p
+{
+    font-family: 'Sriracha', cursive;
+    margin-top: 10px; 
+}
+.lc_item
+{
+  
+    margin: 60px;
+    padding-top: 5px;  
+}
+.lc_item a
+{
+  
+    text-decoration: none; 
+}
+.abt_container h1
+{
+   margin: 0px;
+   font-family: 'Fugaz One', cursive;
+
+}
+.abt_item
+{
+    margin: 60px;
+    padding-top: 5px;
+
+}
+.abt_container p
+{
+    font-family: 'Sriracha', cursive;
+    margin-top: 10px; 
+}
+/* .skillitem
+{
+    display: flex;
+    align-items: center;
+
+}
+.skill
+{   width: 100px;
+    height: 10px;
+    background-color: red;
+} */
+
+.skillscontainer ul
+{
+ list-style:disc;
+ font-family: 'Fugaz One', cursive;
+font-weight: lighter;
+
+}
+.skillscontainer ul li
+{
+    padding: 3px;
+    /* padding-left: 3px; */
+}
+.hamburger
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    width: 30px;
+
+}
+.cancel
+{
+    margin-left: 190px;
+}
+.sidebarGo
+{
+    transform: translate(-440px , 0px);
+    position: absolute;
+}
+
+@media (max-width : 500px)
+{
+    .main
+    {
+        /* margin-top: -90px; */
+        margin-left: 25px;
+    }
+    .abt_container,.contactform,.exp_container
+    {
+        margin: 50px 8px;
+    }
+    .contactform
+    {
+        display: none;
+    }
+} 
